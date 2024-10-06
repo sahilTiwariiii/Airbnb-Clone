@@ -1,0 +1,26 @@
+.authboxsignup{
+    height: 42px;
+    padding: 12px 16px 12px 16px;
+    cursor: pointer;
+
+}
+
+.authboxsignup:hover{
+    background-color: #F7F7F7;
+}
+.mainauthairbnbhrline{
+    background-color: #DDDDDD;
+    margin: 8px 0px 8px 0px;
+}
+.textinsideauthbox{
+    font-size: 15px;
+    line-height: 18px;
+    font-weight: 500;
+    color: rgb(34, 34, 34);
+}
+.signuppopopo{
+    font-weight: 700;
+}
+.lolulou{
+    border-radius: 15px;
+}

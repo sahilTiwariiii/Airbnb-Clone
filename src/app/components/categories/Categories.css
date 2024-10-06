@@ -1,0 +1,81 @@
+/* Container that holds all categories, with horizontal scrolling */
+.maincategories-container {
+    display: flex;
+    gap: 50px;
+    justify-content: flex-start;  /* Align to the start so items flow naturally */
+    max-width: 1200px;
+    margin: 20px auto;
+    overflow-x: auto;  /* Allow horizontal scrolling */
+    scrollbar-width: none;  /* Hide scrollbar on Firefox */
+    padding-inline: 20px;
+  }
+  
+  .maincategories-container::-webkit-scrollbar {
+    display: none;  /* Hide scrollbar on Webkit browsers like Chrome */
+  }
+  
+  .category-item {
+    text-align: center;
+    cursor: pointer;
+    padding-bottom: 5px;  /* Space for the underline */
+    position: relative;  /* For placing the underline */
+  }
+  
+  .category-icon {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .category-label {
+    color: #6A6A6A;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 16px;
+  }
+  
+  .icon:hover, .category-label:hover {
+    color: rgb(0, 0, 0) !important;  /* Hover effect for icon and label */
+  }
+  
+  /* Underline effect on hover */
+  .category-item:hover::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: rgba(128, 128, 128, 0.5);  /* Light gray underline */
+  }
+  
+  /* Active state styles (when clicked) */
+  .active .category-label {
+    color: rgb(0, 0, 0);
+  }
+  
+  .active .icon {
+    color: rgb(0, 0, 0) !important;
+  }
+  
+  /* Underline effect for active (clicked) category */
+  .active::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 2px;
+    background-color: rgb(0, 0, 0);  /* Dark underline when active */
+  }
+  
+  .category-label {
+    color: #6A6A6A;
+    font-weight: 500;
+    font-size: 13px;
+    margin-bottom: 10px;
+    line-height: 16px;
+    white-space: nowrap;  /* Prevent the label from wrapping to the next line */
+    overflow: hidden;     /* Hide any overflowing text */
+    text-overflow: ellipsis;  /* Add '...' if the text overflows */
+  }
+  

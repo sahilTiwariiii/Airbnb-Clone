@@ -1,0 +1,110 @@
+.maincontainreofcopyright {
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-inline: 48px;
+	margin-top: 24px;
+	margin-bottom: 24px;
+	background-color: #f6f6f7;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+.firstcopyrightcontainer {
+	display: flex;
+	gap: 10px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 400;
+}
+
+.firstcopyrightcontainer a::before {
+	content: '•'; /* This adds the dot before each link */
+	margin-right: 5px;
+	font-size: 10px; /* Adjust the size of the dot */
+	/* Color of the dot */
+}
+
+.secondcopyrightcontainer {
+	display: flex;
+	gap: 20px;
+	font-size: 14px;
+	line-height: 18px;
+	font-weight: 500;
+}
+.itemddivd {
+	display: flex;
+	align-items: center;
+}
+.socialmediaiconssir {
+	display: flex;
+	gap: 10px;
+}
+
+.globewaladsie:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.inrricht:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.myfeetglobe {
+	margin-right: 5px;
+}
+
+.facebooknoci:hover {
+	cursor: pointer;
+}
+.twitternoci:hover {
+	cursor: pointer;
+}
+.instagramnoci:hover {
+	cursor: pointer;
+}
+
+.privacysknil:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.termssknil:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.sutemapsknil:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.companysknil:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+
+@media (max-width: 900px) {
+	.maincontainreofcopyright {
+		flex-direction: column-reverse;
+		gap: 10px;
+	}
+	.firstcopyrightcontainer {
+		flex-direction: column;
+		align-items: center;
+	}
+	.twothousandairbnb {
+		display: block;
+	}
+	.luciicullink {
+		display: block;
+	}
+}
+
+/* Tanay Pratap Interview Question */
+/*
+ 1) SetTimeout and EventLoop predict output questions  and what is promise.resolve() and micro task
+2) Placement of Js file like js file head ke uper rakhoge ya fir body ke niche rakhoge what is Critical Rendering Path browser kya chez ko block karta hia aur kya chiz non-blocking hota hai aur js file ko kaha per rakhte hai   -> head,body,end me aur kya hota hai async,defer,delay load what is TDZ
+4)Question around closures
+5) Question Functional Programing  -> pure function
+6) Question regarding 'this' keyword  -> call bind apply
+7) Question of Framework like React,angular ssr ssg spa 
+8)prototypical inheritance
+9) promises async await etc -> Paralles request , sub sequential request ,exit callback 
+10)Debounce and throttle
+ */

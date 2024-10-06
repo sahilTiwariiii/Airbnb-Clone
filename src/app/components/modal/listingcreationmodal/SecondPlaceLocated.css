@@ -1,0 +1,63 @@
+.second-fjdsalftifdeir-reg {
+	height: auto;
+}
+
+.seconddnoces-emoclewotbnbria {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	color: rgb(34, 34, 34);
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.seconddnoces-category {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgb(115, 115, 115);
+	/* margin-top: 30px; */
+	margin-bottom: 10px;
+}
+.emanssalcname {
+	border: 1px solid #8d8374;
+	padding: 12px 12px 12px 12px;
+	border-radius: 8px;
+}
+
+.search-countries-map-container {
+	margin-top: 30px;
+  margin-bottom: 50px;
+}
+
+.buttons-nextbutton-andprevbutton{
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 20px;
+}
+.listing-creation-firsttsrif-eunitnocdf {
+	height: 52px;
+	text-align: center;
+	background-color: #DE1262;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	width: 100%;
+	border-radius: 10px; 
+  }
+.listing-creation-firsttsrif-eunitnocdf:hover{
+  background-color: #E64983;
+}
+  .listingkcabbutton{
+    height: 52px;
+    text-align: center;
+    color: 
+    rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 10px; 
+  }

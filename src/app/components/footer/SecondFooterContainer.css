@@ -1,0 +1,67 @@
+.supporttroppus{
+    font-size: 14px;
+    line-height: 18px;
+    color: 
+    rgb(34, 34, 34);
+    font-weight: 500;
+    margin-bottom: 18px;
+}
+.mainsecondfootercontainer{
+    padding-top: 48px;
+    padding-bottom: 48px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.allsecondlinks{
+    font-size: 14px;
+    line-height: 18px;
+    color: 
+    rgb(34, 34, 34);
+    font-weight: 400; 
+}
+
+.divlinkssknil{
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+.dividerredividline{
+    height: 1px;
+    background-color: #D3CFC9;
+    display: none;
+    
+}
+.divideuniqueine{
+    height: 1px;
+    background-color: #D3CFC9;
+}
+
+.helpcenter:hover{
+text-decoration: underline;
+}
+.aircover:hover{
+    text-decoration: underline;
+}
+.antidesc:hover{
+    text-decoration: underline;
+}
+.disability:hover{
+    text-decoration: underline;
+}
+.cancelf:hover{
+    text-decoration: underline;
+}
+.reportne:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:900px) {
+    .mainsecondfootercontainer{
+        grid-template-columns: 1fr;
+        gap: 50px;
+    }
+    .dividerredividline{
+        display: block !important;
+    }
+}

@@ -1,0 +1,86 @@
+.third-fjdsalftifdeir-reg {
+	height: auto;
+} 
+.thirdnoces-emoclewotbnbria {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	color: rgb(34, 34, 34);
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+.thirddnoces-category {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgb(115, 115, 115);
+	/* margin-top: 30px; */
+	margin-bottom: 10px;
+}
+
+.image-upload-containertyreri{
+    border: 2px dashed #D4D4D4;
+    height: 230px;
+    padding: 80px 80px 80px 80px;
+    cursor: pointer;
+    margin-bottom: 50px;
+}
+
+.image-upload-containertyreri:hover{
+    border: 2px dashed #E1E1E1;
+}
+
+.texthidfng{
+    color: #525252;
+}
+.imagelogoandtextontainer:hover .texthidfng{
+    color: rgb(115, 115, 115);
+}
+.imagelogoandtextontainer:hover .fdsoafbvdfdfdfd{
+    color: rgb(115, 115, 115);
+}
+
+.imagelogoandtextontainer{
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.ifdsfhref{
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.buttons-nextbutton-andprevbutton{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+  }
+  .listingkcabbutton{
+    height: 52px;
+    text-align: center;
+    color: 
+    rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 10px; 
+  }
+  .listing-creation-firsttsrif-eunitnocdf {
+	height: 52px;
+	text-align: center;
+	background-color: #DE1262;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	width: 100%;
+	border-radius: 10px; 
+  }
+.listing-creation-firsttsrif-eunitnocdf:hover{
+  background-color: #E64983;
+}

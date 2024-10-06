@@ -1,0 +1,118 @@
+.third-fjdsalftifdeir-reg {
+	height: auto;
+}
+
+.thirdnoces-emoclewotbnbria {
+	font-weight: 700;
+	font-size: 22px;
+	line-height: 26px;
+	color: rgb(34, 34, 34);
+	margin-top: 30px;
+	margin-bottom: 10px;
+}
+
+.thirddnoces-category {
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 26px;
+	color: rgb(115, 115, 115);
+	/* margin-top: 30px; */
+	margin-bottom: 10px;
+}
+.hochpochmakaro {
+	font-size: 16px;
+	line-height: 24px;
+	color: rgb(0, 0, 0);
+	font-weight: 500;
+}
+.npasgatthings {
+	color: rgb(75, 85, 99);
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+}
+.detailsontainersliated {
+	margin-top: 40px;
+}
+
+.icordectenter {
+	height: 40px;
+	width: 40px;
+	border-radius: 100%;
+	border: 1px solid #a3a3a3;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+	/* text-align: 'center'; */
+}
+.icordectenter:hover{
+border: 1px solid rgb(209, 204, 204);
+}
+.dfcjhjh:hover{
+    color: #E5E7EB;
+}
+.sulp {
+	height: 16px;
+	width: 16px;
+}
+.dsfhsaycdfhdft{
+    text-align: center;
+    font-size: 20px;
+    font-weight: 28px;
+    font-weight: 300;
+    color: rgb(82, 82, 82);
+
+}
+.eetnuconteinaer {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	align-items: center;
+	/* gap: 5x; */
+}
+.tsrifdraccard {
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin-bottom: 30px;
+	margin-top: 30px;
+    
+}
+.buttons-nextbutton-andprevbutton{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+  }
+  .listingkcabbutton{
+    height: 52px;
+    text-align: center;
+    color: 
+    rgb(0, 0, 0);
+    border:2px solid rgb(0, 0, 0);
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+    width: 100%;
+    border-radius: 10px; 
+  }
+
+.listing-sdfhi-dfhfdhf {
+	height: 1px;
+	background-color: rgb(214, 209, 201);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+.listing-creation-firsttsrif-eunitnocdf {
+	height: 52px;
+	text-align: center;
+	background-color: #DE1262;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	width: 100%;
+	border-radius: 10px; 
+  }
+.listing-creation-firsttsrif-eunitnocdf:hover{
+  background-color: #E64983;
+}

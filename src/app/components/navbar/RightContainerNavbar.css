@@ -1,0 +1,85 @@
+.mainrightcontainer{
+    color: rgb(34,34,34);
+    font-weight: 600;
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+}
+.airbnbyourhome{
+    /* hover:bg-[#F7F6F6] cursor-pointer h-[42px] flex items-center p-[12px] rounded-[40px] hidden sm:block */
+    cursor: pointer;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 40px;
+}
+.airbnbyourhome:hover{
+    background-color: #F7F6F6;
+}
+.cartoonwebsitelogo{
+    /* hover:bg-[#F7F6F6] cursor-pointer h-[42px] flex items-center p-[12px] rounded-[40px] */
+    cursor: pointer;
+    height: 42px;
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    border-radius: 40px;
+    margin-right: 8px;
+}
+.cartoonwebsitelogo:hover{
+   background-color: #F7F6F6;
+}
+
+.globeiconimage{
+  height: 16px;
+  width: 16px
+}
+.lastuserandhamburgercontainer{
+    height: 48px;
+    border: 1px solid #DDDDDD;
+    border-radius: 40px;
+    padding: 8px 8px 8px 14px;
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    cursor: pointer;
+    justify-content: center;
+}
+
+.lastuserandhamburgercontainer:hover {
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    border: 1px solid #DDDDDD; /* This maintains the border style on hover */
+}
+.aioutlinemenuicon{
+    height: 17px;
+    width: 17px;
+}
+
+.usericonimageright{
+    height: 32px;
+    width: 32px;
+    border-radius: 100%;
+    border: 1px solid #6A6A6A;
+}
+@media (max-width: 500px) {
+    .airbnbyourhome{
+        display: none;
+    }
+    .cartoonwebsitelogo{
+        display: none;
+    }
+    .usericonimageright{
+        display: none;
+    }
+    
+}
+
+@media (max-width:600px) {
+    .airbnbyourhome{
+        display: none;
+    }
+    .cartoonwebsitelogo{
+        display: none;
+    }
+}

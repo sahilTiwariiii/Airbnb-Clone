@@ -1,0 +1,93 @@
+.searchmaincontainerboos{
+    height: 48px;
+    padding-left: 24px;
+    padding-right: 24px;
+    font-size: 15px;
+    line-height: 22px;
+    font-weight: 600;
+    color: rgb(34, 34, 34);
+    display: flex;
+    border: 1px solid #DCDCDD;
+    box-shadow: 0 3px 12px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.08);
+    border-radius: 40px;
+    cursor: pointer;
+    /* transition: box-shadow; */
+}
+.searchmaincontainerboos:hover{
+    box-shadow: 0 3px 12px 0 rgba(220, 220, 221, 1), 0 1px 2px 0 rgba(220, 220, 221, 0.8);
+}
+
+.firstanywherepart{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+
+.verticallinevertical{
+    display: flex;
+    align-items: center;
+    color: #DDDDDD;
+    padding: 0;
+}
+.middlecontainerofsearch{
+    display: flex;
+    align-items: center;
+    padding: 0;
+}
+.thirdsearchcontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.addgueststext{
+    color: rgb(106,106,106);
+}
+.searchpinkcontainerpinky{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 32px;
+    width: 32px;
+    background-color: #FF385C;
+    border-radius: 100%;
+    margin-left: 10px;
+    margin-right: -18px;
+}
+.fasearchlogohai{
+    width: 12px;
+    height: 12px;
+    color: #FFFEFE;
+}
+.anywheretext{
+    color: #222323;
+    font-weight: 600;
+}
+.anyweaktext{
+    color: #222323;
+    font-weight: 600;
+}
+
+@media (max-width: 500px) {
+   .searchmaincontainerboos{
+    /* display: grid; */
+    justify-content: space-between;
+   }
+}
+
+@media (max-width:740px) {
+    .searchmaincontainerboos{
+        /* display: grid; */
+        justify-content: space-between;
+       }
+    .middlecontainerofsearch{
+        display: none;
+    }
+    .verticallinevertical{
+        display: none;
+    }
+    .addgueststext{
+        display: none;
+    }
+
+
+}

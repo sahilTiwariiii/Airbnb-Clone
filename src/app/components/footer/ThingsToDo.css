@@ -1,0 +1,40 @@
+ 
+.bougnfjg{
+   
+} 
+.linkssknilrut{
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+    color: rgb(34, 34, 34);
+}
+.tepyldneirf{
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+    color: 
+    rgb(106, 106, 106)
+}
+.niamiahey{
+    display: grid;
+    display: grid;
+  grid-template-columns: repeat(6, 1fr); /* 5 equal columns */
+  gap: 20px;
+  padding-top: 20px;
+  /* padding: 20px; */
+  /* text-align: center; */
+}
+
+.hsdhfd{
+    display: flex;
+    align-items: center;
+}
+.hsdhfd:hover{
+    text-decoration: underline;
+}
+
+@media (max-width:900px) {
+    .niamiahey{
+        grid-template-columns: repeat(2, 1fr);;
+    }
+}
