@@ -2,14 +2,14 @@
 
 import React from 'react'
 import "./HomePagee.css"
+import Cards from './Cards'
 const HomePagee = () => {
   return (
     <div className='mainhomepagecontainergyt'>
-        <div>1</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
-        <div>2</div>
+        <Cards/>
+        <Cards/>
+        <Cards/>
+        <Cards/>
     </div>
   )
 }

@@ -3,7 +3,18 @@
 import React from 'react';
 import './FourthImageUpload.css';
 import { TbPhotoPlus } from 'react-icons/tb';
+import { useDispatch } from 'react-redux';
+import { goBackward, goForward } from '@/reduxtoolkit/features/ListingCreationModalToggling';
 const FourthImageUpload = () => {
+	const dispatch = useDispatch();
+	// next
+	const handleGoToNextLevel = () => {
+		dispatch(goForward());
+	};
+	// go back
+	const handleGoToPreviousLevel = () => {
+		dispatch(goBackward());
+	};
 	return (
 		<div className="third-fjdsalftifdeir-reg">
 			<h1 className="thirdnoces-emoclewotbnbria">Add a photo of your place</h1>
@@ -22,7 +33,6 @@ const FourthImageUpload = () => {
 								style={{
 									color: '#525252'
 								}}
-                                
 							/>
 						</div>
 						{/* text */}
@@ -30,12 +40,16 @@ const FourthImageUpload = () => {
 					</div>
 				</div>
 				{/* Second contianer */}
-                {/* Buttons 2 buttons 'Next' and 'Back' button */}
+				{/* Buttons 2 buttons 'Next' and 'Back' button */}
 				<div className="buttons-nextbutton-andprevbutton">
-					<button type="submit" className="listingkcabbutton">
+					<button onClick={handleGoToPreviousLevel} type="submit" className="listingkcabbutton">
 						Back
 					</button>
-					<button type="submit" className="listing-creation-firsttsrif-eunitnocdf">
+					<button
+						onClick={handleGoToNextLevel}
+						type="submit"
+						className="listing-creation-firsttsrif-eunitnocdf"
+					>
 						Next
 					</button>
 				</div>

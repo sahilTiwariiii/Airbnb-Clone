@@ -1,12 +1,13 @@
+import HomePagee from './components/frontpage/HomePagee';
+import Container from './Container';
 
 export default function Home() {
-  return (
-    <>
-    <div className="text-rose-400">Hi this </div>
-    {/* <Home/> */}
-    </>
-  );
+	return (
+		// <>
+		<Container>
+			{/* <Home/> */}
+			<HomePagee />
+		</Container>
+		// </>
+	);
 }
-
-
- 

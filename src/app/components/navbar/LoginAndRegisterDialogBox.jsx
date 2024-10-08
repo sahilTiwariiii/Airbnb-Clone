@@ -4,8 +4,9 @@ import React from 'react'
 import "../navbar/LoginAndRegisterDialogBox.css"
 import { openModel } from '@/reduxtoolkit/features/LoginandRegisterModelSlice'
 import { useDispatch } from 'react-redux'
+import { openListingModal } from '@/reduxtoolkit/features/ListingModalOpenAndClose'
 
-
+ 
 
 const LoginAndRegisterDialogBox = () => {
   const dispatch=useDispatch() // call Dispatch at the top level
@@ -13,7 +14,9 @@ const LoginAndRegisterDialogBox = () => {
       const handleOpenModel = () => {
         dispatch(openModel());
     };
-
+   const handleOpenandCloseListingModal=()=>{
+    dispatch(openListingModal())
+   }
   
   return (
     <div className='mainauthairbnbboxsmall'>
@@ -30,7 +33,7 @@ const LoginAndRegisterDialogBox = () => {
       <hr className="mainauthairbnbhrline" />
 
       {/* third link ----> Airbnb your home */}
-      <div className="authboxsignup">
+      <div onClick={handleOpenandCloseListingModal} className="authboxsignup">
         <h4 className="textinsideauthbox">Airbnb your home</h4>
       </div>
       {/* fourth link ----> Host an experience */}

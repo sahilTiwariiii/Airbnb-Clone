@@ -1,0 +1,97 @@
+.priceecirpontainer {
+	position: relative;
+	width: 100%;
+	margin-bottom: 40px;
+}
+
+.price-input {
+	width: 100%;
+	padding-left: 60px; /* Increased padding to give more space for the placeholder */
+	height: 65px;
+	border: 2px solid #d4d4d4;
+	margin-bottom: 20px;
+	padding: 16px;
+	font-size: 16px;
+	color: #222222;
+	line-height: 20px;
+	border-radius: 8px;
+	box-sizing: border-box;
+}
+
+.icon-container {
+	position: absolute;
+	left: 2px;
+	top: 54%;
+	transform: translateY(-50%);
+	font-size: 24px;
+	color: #999999;
+	pointer-events: none;
+}
+
+.price-input:focus {
+	border-color: #de1262;
+	box-shadow: 0 0 5px rgba(222, 18, 98, 0.5);
+}
+
+.price-input::placeholder {
+	color: #999999;
+	font-size: 16px;
+	padding-left: 10px; /* Optional: Add a bit of padding for the placeholder text */
+}
+
+.buttons-nextbutton-andprevbutton {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 20px;
+}
+.listingkcabbutton {
+	height: 52px;
+	text-align: center;
+	color: rgb(0, 0, 0);
+	border: 2px solid rgb(0, 0, 0);
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	width: 100%;
+	border-radius: 10px;
+}
+.listing-creation-firsttsrif-eunitnocdf {
+	height: 52px;
+	text-align: center;
+	background-color: #de1262;
+	color: rgb(255, 255, 255);
+	font-size: 16px;
+	line-height: 20px;
+	font-weight: 500;
+	width: 100%;
+	border-radius: 10px;
+}
+.listing-creation-firsttsrif-eunitnocdf:hover {
+	background-color: #e64983;
+}
+
+.paisatidfkpixel {
+	height: 65px;
+	border: 2px solid #d4d4d4;
+	margin-bottom: 20px;
+	padding: 24px 16px 16px 16px;
+	font-size: 16px;
+	color: #222222;
+	line-height: 20px;
+	border-radius: 8px;
+	padding-left: 30px;
+}
+.paisatidfkpixel:invalid {
+	border: 2px solid #ff4d4f !important; /* Red border to indicate error */
+	background-color: #fff6f6; /* Light red background for input */
+}
+
+.paisatidfkpixel:invalid:focus {
+	outline: none !important;
+	box-shadow: 0 0 5px rgba(255, 77, 79, 0.5) !important; /* Light shadow effect on focus */
+}
+
+.bvhdery {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
