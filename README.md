@@ -3,8 +3,6 @@
 # 🌟 Airbnb Clone
 
 
-![HomePage](public/images/logo.png)
-
 Welcome to the **Airbnb Clone** project! This application is a modern, responsive front-end clone of the popular Airbnb platform, built using **Next.js 14**, **React**, and **pure CSS**. This project demonstrates a strong understanding of front-end development principles, responsive design, and state management.
 
 ![HomePage](public/images/a.png)
