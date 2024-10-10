@@ -140,9 +140,6 @@ Here are some screenshots of the application. (Add your images here)
 
 ![IPhone 5 Homepage](public/images/i5.png)
 
-**Samsung Galaxy**
-
-![Samsung Galaxy](public/images/sam.png)
 
 ## 🏗️ Instructions for Using the Project
 
@@ -155,7 +152,7 @@ git clone https://github.com/sahilTiwariiii/Airbnb-Clone
 ### Install Dependencies
 
 ```bash
-cd airbnb-clone
+cd Airbnb-Clone
 npm install
 ```
 
