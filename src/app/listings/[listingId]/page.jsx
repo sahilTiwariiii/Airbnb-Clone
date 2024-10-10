@@ -1,9 +1,8 @@
-import React from 'react'
+import React from 'react';
+import SinglePropertyPage from './SinglePropertyPage';
 
 const ListingSinglePage = () => {
-  return (
-    <div>ListingSinglePage</div>
-  )
-}
+	return <SinglePropertyPage />;
+};
 
-export default ListingSinglePage
+export default ListingSinglePage;

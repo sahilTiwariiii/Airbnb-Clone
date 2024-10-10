@@ -1,0 +1,221 @@
+.sdfhcgvertr {
+	font-size: 24px;
+	line-height: 32px;
+	font-weight: 700;
+	color: rgb(0, 0, 0);
+}
+.dsbcerwewew {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	color: rgb(115, 115, 115);
+}
+
+.sdfbvrte {
+	height: 380px;
+	border-radius: 16px;
+	width: 100%;
+	object-fit: cover;
+}
+.egapytreporpelgnis {
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-inline: 40px;
+	margin-top: 30px;
+}
+.dfheriucdawx {
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 50px;
+	margin-top: 40px;
+	margin-bottom: 50px;
+}
+
+.gnidaehegaireni {
+	display: grid;
+	gap: 30px;
+}
+.xtetreniatnoc {
+	display: grid;
+	gap: 10px;
+	margin-bottom: 30px;
+}
+.fdsafnmcvbpot {
+	position: relative; /* यह जरूरी है ताकि span को absolute किया जा सके */
+}
+
+.lkdfbveurerzas {
+	position: absolute;
+	cursor: pointer;
+	right: 13px;
+	top: 6px;
+	z-index: 10;
+}
+.dsepo {
+	font-size: 20px;
+	line-height: 28px;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+}
+.fdsarerhuv {
+	display: flex;
+	gap: 20px;
+}
+
+.fdajzuetw {
+	font-size: 16px;
+	line-height: 24px;
+	color: rgb(115, 115, 115);
+	font-weight: 600;
+}
+.fdfkjcbat {
+	font-size: 16px;
+	line-height: 24px;
+	color: rgb(115, 115, 115);
+	font-weight: 300;
+}
+.fdsjkfzvctewrwep {
+	display: flex;
+	gap: 10px;
+}
+.terougnaem {
+	font-size: 18px;
+	line-height: 28px;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+}
+.fdsj {
+	display: flex;
+	gap: 20px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.jfdbwterqszsa {
+	font-size: 18px;
+	line-height: 28px;
+	font-weight: 300;
+	color: rgb(115, 115, 115);
+}
+.mappamfdsreurgczxa {
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
+.rangedatejsdfhdsbcdcd {
+	width: 100%; /* Take full available width */
+}
+
+.react-date-range {
+	width: 100%; /* Ensure full width for the picker */
+}
+/* Full width of Date Picker */
+.custom-date-range-picker {
+	width: 100%;
+	/* max-width: 414px;  */
+	padding: 10px 0 0 0;
+	border: 0px solid #e5e7eb;
+}
+
+/* Styling for the navigation (left-right arrows) */
+.custom-date-range-picker .rdrMonths {
+	/* width: 414px; */
+	width: 100%;
+	/* height: 64px; */
+}
+
+.fdsajferc {
+	border: 1px solid #e5e7eb;
+	padding: 16px;
+	border-radius: 12px;
+}
+.fherertbchdaqwrifh {
+	display: flex;
+	justify-content: space-between;
+}
+/* Styling for the date selection grid (dates container) */
+.custom-date-range-picker .rdrMonth {
+	/* width: 414px; */
+	width: 100%;
+	/* height: 270px; */
+	padding: 0 12px 23px 12px;
+	border: 0px solid #e5e7eb;
+}
+
+.eryewrt {
+	display: flex;
+	gap: 10px;
+	align-items: center;
+	margin-bottom: 30px;
+}
+.jkdshfjererer {
+	cursor: pointer;
+	height: 52px;
+	padding: 12px 0px 12px 0px;
+	font-size: 16px;
+	font-weight: 600;
+	line-height: 24px;
+	background-color: #ef385c;
+	width: 100%;
+	border-radius: 12px;
+}
+.fdjdfh {
+	padding-inline: 26px;
+	display: grid;
+	gap: 30px;
+	align-items: center;
+}
+.dsffhreytq {
+	font-size: 18px;
+	line-height: 28px;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+}
+.fhdjrerytzwq {
+	font-size: 18px;
+	line-height: 28px;
+	color: rgb(0, 0, 0);
+	font-weight: 600;
+}
+.littlecdbfxawqw {
+	padding-top: 30px;
+	padding-bottom: 30px;
+}
+.terougnfdsafaem {
+	font-size: 16px;
+	line-height: 24px;
+	font-weight: 300;
+	color: rgb(115, 115, 115);
+}
+.mappamfdsreurgczxa {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+.qreawssa {
+	font-size: 24px;
+	line-height: 26px;
+	font-weight: 600;
+	color: rgb(0, 0, 0);
+}
+.dsfhcywte {
+	font-size: 16px;
+	line-height: 24px;
+	color: rgb(82, 82, 82);
+	font-weight: 300;
+}
+/* divider line */
+.hrefidfdifhdfh {
+	height: 1px;
+	background-color: rgb(214, 209, 201);
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+@media (max-width: 768px) {
+	.egapytreporpelgnis {
+		padding-inline: 15px;
+	}
+	.dfheriucdawx {
+		grid-template-columns: 1fr;
+	}
+	.hdsfjrhe {
+		order: 2;
+	}
+}

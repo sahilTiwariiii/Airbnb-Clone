@@ -7,17 +7,18 @@ import Image from 'next/image';
 import SearchMainComponent from './SearchMainComponent';
 import RightContainerNavbar from './RightContainerNavbar';
 import LoginAndRegisterDialogBox from './LoginAndRegisterDialogBox';
+
 const Navbar = () => {
 	const [ isOpen, setIsOpen ] = useState(false);
 
-	
+
 	return (
     <>		<header>
     <div className=" mainheadercontianer">
       {/* logo */}
       <div className=" logocontainerairbnb">
-        <Image src={appLogoImage} height={35} width={100} alt="app logo" className="firstimageairbnb" />
-        <Image src={appLogoSecondImage} className="secondimageairbnb" alt='fdfs' />
+        <Image  src={appLogoImage} height={35} width={100} alt="app logo" className="firstimageairbnb" />
+        <Image  src={appLogoSecondImage} className="secondimageairbnb" alt='fdfs' />
       </div>
       {/* middle search container */}
       <div className='searchmainmainsearch'>

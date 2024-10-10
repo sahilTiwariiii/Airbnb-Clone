@@ -1,9 +1,16 @@
+.mainhomepagecontainergyt {
+	display: grid;
+	grid-template-columns: repeat(auto-fill, minmax(242px, 1fr));
+	grid-gap: 16px;
+	gap: 30px;
+	margin-top: 32px;
+	max-width: 1200px;
+	margin-inline: auto;
+	padding-inline: 15px;
+}
 
-.mainhomepagecontainergyt{
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Responsive grid */
-    gap: 20px; /* Space between cards */
-    justify-content: center;
-    max-width: 1200px;
-    margin-inline: auto;
-  }
+@media (max-width: 550px) {
+	.mainhomepagecontainergyt {
+		padding-inline: 15px;
+	}
+}

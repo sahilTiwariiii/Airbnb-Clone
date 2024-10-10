@@ -33,13 +33,13 @@ export default function RootLayout({ children }) {
 		<html lang="en">
 			<body className={font.className}>
 				<ReduxtoolkitProvider>
-				<Navbar />
-				<Categories />
-				<LoginModal />
-				<ListingCreationModal/>
-				{children}
-				{/* <Footer/>  */}
-				<Copyright />
+					<Navbar />
+					{/* <Categories /> */}
+					<LoginModal />
+					<ListingCreationModal />
+					{children}
+					<Footer />
+					<Copyright />
 				</ReduxtoolkitProvider>
 			</body>
 		</html>

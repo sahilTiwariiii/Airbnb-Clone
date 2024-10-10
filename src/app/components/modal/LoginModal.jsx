@@ -12,7 +12,7 @@ import { useForm, handleSubmit, register } from 'react-hook-form';
 import { useDispatch, useSelector } from 'react-redux';
 import { closeModel, openModel } from '@/reduxtoolkit/features/LoginandRegisterModelSlice';
 
-const LoginModal = () => {
+const LoginModal = () => { 
 	const [ toogleStateLaS, setToogleStateLaS ] = useState(false);
   // toogle between login and register 
   const toogleLoginandRegister=()=>{
