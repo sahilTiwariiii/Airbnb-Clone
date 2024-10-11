@@ -81,7 +81,7 @@ export const homepageallcards = [
 		price: 1900
 	},
 	{
-		id: 10,
+		id: 11,
 		propertyname: 'Game with Khaby Lame',
 		category: 'Mansion',
 		imagee:
@@ -90,7 +90,7 @@ export const homepageallcards = [
 	},
 
 	{
-		id: 11,
+		id: 12,
 		propertyname: 'Clock Tower',
 		category: 'Mansion',
 		imagee:
@@ -98,7 +98,7 @@ export const homepageallcards = [
 		price: 2800
 	},
 	{
-		id: 12,
+		id: 13,
 		propertyname: 'Incredible Suit',
 		category: 'Mansion',
 		imagee:
@@ -106,7 +106,7 @@ export const homepageallcards = [
 		price: 3100
 	},
 	{
-		id: 13,
+		id: 14,
 		propertyname: 'Digurah, Maldivies',
 		category: 'Island',
 		imagee:
@@ -114,7 +114,7 @@ export const homepageallcards = [
 		price: 3100
 	},
 	{
-		id: 13,
+		id: 15,
 		propertyname: 'Surat Thani, Thailand',
 		category: 'Island',
 		imagee:
@@ -122,7 +122,7 @@ export const homepageallcards = [
 		price: 4200
 	},
 	{
-		id: 14,
+		id: 16,
 		propertyname: 'Male, Maldivies',
 		category: 'Island',
 		imagee: 'https://a0.muscache.com/im/pictures/be0957a9-da56-47d6-89ca-223b6e75321a.jpg?im_w=1440&im_q=highq',

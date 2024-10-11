@@ -18,7 +18,7 @@ const Navbar = () => {
       {/* logo */}
       <div className=" logocontainerairbnb">
         <Image  src={appLogoImage} height={35} width={100} alt="app logo" className="firstimageairbnb" />
-        <Image  src={appLogoSecondImage} className="secondimageairbnb" alt='fdfs' />
+        <Image  src={appLogoSecondImage} height={40} width={40} className="secondimageairbnb" alt='fdfs' />
       </div>
       {/* middle search container */}
       <div className='searchmainmainsearch'>
