@@ -1,4 +1,4 @@
-import { id } from 'ethers';
+
 
 export const thingstodo = [
 	{

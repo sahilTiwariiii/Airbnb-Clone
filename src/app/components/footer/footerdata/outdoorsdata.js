@@ -1,4 +1,4 @@
-import { list } from 'postcss';
+
 
 export const outdoordata = [
 	{
